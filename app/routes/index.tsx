@@ -35,7 +35,7 @@ export default function Index() {
     <div>
       <header>
         <Link to="/">Top Page</Link> | <Link to="/sub">Sub Page</Link> |{" "}
-        <Link to="/４０４">NotFound Page</Link>
+        <Link to="/404">NotFound Page</Link>
       </header>
       <div css={wrapperStyle}>
         <h1 css={state ? headingStyle : headingDefaultStyle}>
